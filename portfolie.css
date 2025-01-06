@@ -107,10 +107,6 @@ iframe {
 }
 
 /****** Tema 1 ******/
-.grid_1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 
 .tema_tekst {
   color: #0a41bc;
@@ -136,6 +132,10 @@ iframe {
 
   .border_img img {
     padding: 0px;
+  }
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -166,13 +166,13 @@ iframe {
   background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 5%, rgba(245, 253, 255, 0) 6%, rgba(0, 212, 255, 0) 100%);
 }
 
-.grid_1-1-2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.order {
+  order: 1;
 }
 
 .grid_1-1_2 img:nth-child(1) {
   object-fit: contain;
+  margin-bottom: 10px;
 }
 
 .grid_1-1_2 img:nth-child(2) {
@@ -202,7 +202,6 @@ iframe {
   justify-self: center;
   text-decoration: none;
   color: white;
-  margin-left: 55px;
 }
 
 a:hover {
@@ -215,13 +214,12 @@ a:hover {
   display: none;
 }
 
-.grid_1-1_2 .link2 {
+.link2 {
   text-align: center;
   text-decoration: none;
   color: white;
-  position: relative;
-  left: 30%;
-  top: 20px;
+  align-self: center;
+  display: block;
 }
 
 @media screen and (min-width: 800px) {
@@ -233,8 +231,14 @@ a:hover {
     display: block;
   }
 
+  .grid_1-1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .link1 {
-    display: inline;
+    display: block;
+    text-align: center;
     margin-left: 90px;
     font-size: 2rem;
     text-decoration: none;
@@ -315,6 +319,22 @@ a:hover {
   color: #0a41bc;
 }
 
+.grid_1-1_2_white img:nth-child(1) {
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.grid_1-1_2_white img:nth-child(2) {
+  display: none;
+}
+.grid_1-1_2_white img:nth-child(3) {
+  display: none;
+}
+
+.link1_2 {
+  display: none;
+}
+
 @media screen and (min-width: 800px) {
   .grid_1-1_2_white {
     display: grid;
@@ -346,5 +366,15 @@ a:hover {
     position: relative;
     top: 10px;
     font-size: 2rem;
+  }
+
+  .grid_1-1 p {
+    margin-right: 90px;
+  }
+
+  .link1_2 {
+    display: block;
+    text-align: center;
+    margin-right: 90px;
   }
 }
