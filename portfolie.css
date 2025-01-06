@@ -112,19 +112,10 @@ iframe {
   width: 100%;
 }
 
-/****** Tema 1 ******/
+/****** Tema1 ******/
 
 .tema_tekst {
   color: #0a41bc;
-}
-
-.border_img {
-  border: 25px solid;
-  border-image-source: url(img/border_img.svg);
-  border-image-slice: 28 27 27 27;
-  border-image-width: 20px;
-  border-image-outset: 0px;
-  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 800px) {
@@ -182,22 +173,6 @@ iframe {
 }
 .grid_1-1_2 img:nth-child(3) {
   display: none;
-}
-
-.border_img_white {
-  border: 25px solid;
-  border-image-source: url(img/border_img_2.svg);
-  border-image-slice: 28 27 27 27;
-  border-image-width: 20px;
-  border-image-outset: 0px;
-}
-
-.border_img_white_button {
-  border: 15px solid;
-  border-image-source: url(img/border_img_2.svg);
-  border-image-slice: 28 27 27 27;
-  border-image-width: 10px;
-  border-image-outset: 0px;
 }
 
 .grid_1-1-2 p {
@@ -313,16 +288,6 @@ a:hover {
 }
 
 /******** Tema 3 ********/
-
-.border_img_button {
-  border: 22px solid;
-  border-image-source: url(img/border_img.svg);
-  border-image-slice: 28 27 27 27;
-  border-image-width: 15px;
-  border-image-outset: 0px;
-  text-decoration: none;
-  color: #0a41bc;
-}
 
 .grid_1-1_2_white img:nth-child(1) {
   object-fit: contain;

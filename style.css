@@ -200,6 +200,10 @@ h1 {
   color: white;
 }
 
+.orange {
+  color: #ff4900;
+}
+
 /************** Layout ***************/
 
 img {
@@ -213,4 +217,40 @@ img {
 
 #sidebar {
   min-width: 0;
+}
+
+/********* Knapper og billede rammer ********/
+.border_img_white {
+  border: 25px solid;
+  border-image-source: url(img/border_img_2.svg);
+  border-image-slice: 28 27 27 27;
+  border-image-width: 20px;
+  border-image-outset: 0px;
+}
+
+.border_img_white_button {
+  border: 15px solid;
+  border-image-source: url(img/border_img_2.svg);
+  border-image-slice: 28 27 27 27;
+  border-image-width: 10px;
+  border-image-outset: 0px;
+}
+
+.border_img {
+  border: 25px solid;
+  border-image-source: url(img/border_img.svg);
+  border-image-slice: 28 27 27 27;
+  border-image-width: 20px;
+  border-image-outset: 0px;
+  margin-bottom: 10px;
+}
+
+.border_img_button {
+  border: 22px solid;
+  border-image-source: url(img/border_img.svg);
+  border-image-slice: 28 27 27 27;
+  border-image-width: 15px;
+  border-image-outset: 0px;
+  text-decoration: none;
+  color: #0a41bc;
 }
