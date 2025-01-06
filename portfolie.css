@@ -96,6 +96,12 @@
   background-repeat: no-repeat;
 }
 
+.background_image_blue_end {
+  background-color: #0a42bcc4;
+  z-index: -2;
+  padding-bottom: 10%;
+}
+
 .background_image_blue {
   background-color: #0a42bcc4;
   z-index: -2;
@@ -166,10 +172,6 @@ iframe {
   background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 5%, rgba(245, 253, 255, 0) 6%, rgba(0, 212, 255, 0) 100%);
 }
 
-.order {
-  order: 1;
-}
-
 .grid_1-1_2 img:nth-child(1) {
   object-fit: contain;
   margin-bottom: 10px;
@@ -223,6 +225,11 @@ a:hover {
 }
 
 @media screen and (min-width: 800px) {
+  .order {
+    order: 1;
+    margin-left: 90px;
+  }
+
   .white_bar {
     padding-bottom: 20px;
     background-color: white;
@@ -239,7 +246,6 @@ a:hover {
   .link1 {
     display: block;
     text-align: center;
-    margin-left: 90px;
     font-size: 2rem;
     text-decoration: none;
     color: white;
@@ -280,7 +286,7 @@ a:hover {
   .grid_1-1_2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr;
     gap: 10px;
   }
 
@@ -303,7 +309,6 @@ a:hover {
     justify-self: center;
     text-decoration: none;
     color: white;
-    margin-left: 95px;
   }
 }
 
@@ -339,7 +344,7 @@ a:hover {
   .grid_1-1_2_white {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr;
     gap: 10px;
   }
   .grid_1-1_2_white img:nth-child(1) {
