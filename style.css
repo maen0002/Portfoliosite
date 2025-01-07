@@ -178,16 +178,18 @@ header {
 
 /******* Footer ********/
 
-.footer_img {
-  transform: scaleX(-1);
-  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 5%, rgba(245, 253, 255, 0) 6%, rgba(0, 212, 255, 0) 100%);
-  transform-origin: center bottom;
+footer {
+  background-color: #ffffff;
 }
 
-footer {
-  position: relative;
-  bottom: 166px;
-  align-items: center;
+.footer_img {
+  transform: scaleX(-1);
+  padding-top: 10px;
+}
+
+footer p {
+  text-align: center;
+  color: #0a41bc;
 }
 
 /******* Font *******/
@@ -234,6 +236,7 @@ img {
   border-image-slice: 28 27 27 27;
   border-image-width: 10px;
   border-image-outset: 0px;
+  color: white;
 }
 
 .border_img {

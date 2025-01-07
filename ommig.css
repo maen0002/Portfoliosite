@@ -99,7 +99,6 @@
 .background_image_blue {
   background-color: #0a42bcc4;
   z-index: -2;
-  padding-bottom: 100px;
 }
 
 .blue {
@@ -156,6 +155,14 @@
   display: block;
 }
 
+.white_bar2 {
+  padding-top: 10px;
+  background-color: white;
+  position: relative;
+  top: -6px;
+  display: block;
+}
+
 /*********** Kontakt ***********/
 label {
   color: #ff4900;
@@ -206,4 +213,8 @@ textarea {
 
 .form_felt {
   margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 40px;
 }
