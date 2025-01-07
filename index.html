@@ -7,6 +7,15 @@
     <title>Forside</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,7 +34,7 @@
                     <div class="line"></div>
                 </div>
                 <ul class="menu">
-                    <li><a href="portfolie.html">PORTFOLIE</a></li>
+                    <li><a href="portfolie.html">PORTFOLIO</a></li>
                     <li><a href="ommig.html">OM MIG</a></li>
                 </ul>
             </div>
@@ -39,12 +48,30 @@
             <div class="hero_img">
                 <img src="img/forside_header.webp" alt="">
             </div>
-            <div class="hero_text">
-                <h1>HEJ, JEG HEDDER MARIUS</h1>
+            <div class="hero_text_2">
+                <h1>Velkommen!</h1>
             </div>
         </div>
-        <div class="carousel">
-            <h1>PORTFOLIE</h1>
+        <div class="layout">
+            <div class="flex_1-1-1">
+                <div class="carousel">
+                    <h1>PORTFOLIO</h1>
+                    <h2 id="carousel_tema_nummer">Tema 1</h2>
+                    <div class="border_img">
+                        <img id="Tema1_img" src="img/tema1_billede.webp" alt="Tema1 Billede">
+                        <img id="Tema2_img" class="hide" src="img/tema2/tema_2_img.webp" alt="Tema2 Billede">
+                        <img id="Tema3_img" class="hide" src="img/tema3/tema3_img_1.webp" alt="Tema3 Billede">
+                        <img id="Tema4_img" class="hide" src="img/tema4/tema4_img_1.webp" alt="Tema4 Billede">
+                        <img id="Tema5_img" class="hide" src="img/tema5_1/tema5_1_img_1.png" alt="Tema5 Billede">
+                        <img id="Tema5_2_img" class="hide" src="img/tema5_2/tema5_2_img_1.png" alt="Tema5_2 Billede">
+                    </div>
+                </div>
+                <img id="carousel_button_left" src="img/button.svg" alt="">
+                <img id="carousel_button_right" src="img/button.svg" alt="">
+            </div>
+            <div class="center">
+                <a href="portfolie.html" class="link_portfolio border_img_button">SE PORTFOLIO</a>
+            </div>
         </div>
         <div class="white_bar"></div>
         <div class="portfolie_layout_blue">
@@ -52,7 +79,7 @@
                 <div class="transition">
                     <img src="img/transition_white.svg" alt="">
                 </div>
-                <div class="portfolie_layout">
+                <div class="layout_facts">
                     <div class="grid_facts">
                         <div>
                             <img src="img/om_mig_fact_img1.svg" alt="">
@@ -67,7 +94,9 @@
                             <p class="orange">Mig og en hjort som bukker for hinanden i byen Nara i Japan.</p>
                         </div>
                     </div>
-                    <a href="ommig.html" class="link border_img_white_button">LÆS MERE OM MIG</a>
+                    <div class="center">
+                        <a href="ommig.html" class="link border_img_white_button">LÆS MERE OM MIG</a>
+                    </div>
                 </div>
                 <div class="footer_img">
                     <img src="img/transition_white.svg" alt="">
@@ -80,6 +109,7 @@
         <p>Made By - Marius Jacob Engelbredt <br>For Tema 6 - Portfolio Eksamen</p>
     </footer>
     <script src="menu.js"></script>
+    <script src="carousel.js"></script>
 </body>
 
 </html>
